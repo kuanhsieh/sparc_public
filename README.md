@@ -1,6 +1,8 @@
 # sparc_public
 A Python implementation of Sparse Regression Codes (SPARCs)/Sparse Superposition Codes for communication over the AWGN channel.
 
+Includes code to implement power allocated, spatially coupled, PSK modulated and complex SPARCs. For an example of how to run SPARC encoding/decoding simulations or state evolution simulations, please see sparc_demo.ipynb.
+
 Relevant papers:
 
 C. Rush, A. Greig, and R. Venkataramanan, “Capacity-achieving sparse superposition codes via approximate message passing decoding,” *IEEE Trans. Inf. Theory*, vol. 63, pp. 1476–1500, March 2017.
