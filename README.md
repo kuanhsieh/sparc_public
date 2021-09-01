@@ -1,9 +1,9 @@
 # sparc_public
 A Python implementation of Sparse Regression Codes (SPARCs)/Sparse Superposition Codes for communication over the AWGN channel.
 
-Includes code to implement power allocated, spatially coupled, phase-shift keying (PSK) modulated and complex SPARCs. 
+Includes code to implement power allocated, spatially coupled, phase-shift keying (PSK) modulated and complex SPARCs. See sparc_demo.ipynb for an example of how to run SPARC encoding/decoding simulations and state evolution simulations.
 
-See sparc_demo.ipynb for an example of how to run SPARC encoding/decoding simulations or state evolution simulations.
+sparc_demo_sc_decode_wave.ipynb illustrates the wave-like decoding progression in AMP decoded spatially coupled SPARCs.
 
 Relevant papers:
 
