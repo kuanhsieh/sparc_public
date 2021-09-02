@@ -16,3 +16,5 @@ K. Hsieh, C. Rush and R. Venkataramanan, “Spatially Coupled Sparse Regression 
 C. Rush, K. Hsieh and R. Venkataramanan, “Capacity-Achieving Apatially Coupled Sparse Superposition Codes With AMP Decoding,” in *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4446-4484, July 2021, doi: 10.1109/TIT.2021.3083733
 
 K. Hsieh and R. Venkataramanan, "Modulated Sparse Superposition Codes for the Complex AWGN Channel," in *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4385-4404, July 2021, doi: 10.1109/TIT.2021.3081368.
+
+K. Hsieh, "Spatially Coupled Sparse Regression Codes for Single- and Multi-User Communications," Ph.D. dissertation, Cambridge University, Cambridge, UK, 2021, doi: 10.17863/CAM.70721.
