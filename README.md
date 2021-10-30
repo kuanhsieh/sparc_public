@@ -1,20 +1,31 @@
 # sparc_public
-A Python implementation of Sparse Regression Codes (SPARCs)/Sparse Superposition Codes for communication over the AWGN channel.
 
-Includes code to implement power allocated, spatially coupled, phase-shift keying (PSK) modulated and complex SPARCs. See sparc_demo.ipynb for an example of how to run SPARC encoding/decoding simulations and state evolution simulations.
+A Python implementation of Sparse Regression Codes (SPARCs)/Sparse Superposition Codes for communication over the AWGN channel (real and complex).
 
-sparc_demo_sc_decode_wave.ipynb illustrates the wave-like decoding progression in AMP decoded spatially coupled SPARCs.
+Includes code to implement power allocated, spatially coupled and phase-shift keying (PSK) modulated SPARCs (real and complex) and their corresponding Approximate Message Passing (AMP) decoders.
 
-Relevant papers:
+`sparc_demo.ipynb`: Gives examples of how to run SPARC encoding + AMP decoding simulations and state evolution simulations.
 
-C. Rush, A. Greig, and R. Venkataramanan, “Capacity-achieving sparse superposition codes via approximate message passing decoding,” in *IEEE Transactions on Information Theory*, vol. 63, no. 3, pp. 1476-1500, March 2017, doi: 10.1109/TIT.2017.2649460.
+`sparc_demo_sc_decode_wave.ipynb`: Illustrates the wave-like decoding progression in AMP decoded spatially coupled SPARCs. See for example Fig. 3 of "Capacity-Achieving Spatially Coupled Sparse Superposition Codes With AMP Decoding" by Rush, Hsieh and Venkataramanan, 2021.
 
-A. Greig and R. Venkataramanan, “Techniques for improving the finite length performance of sparse superposition codes,” in *IEEE Transactions on Communications*, vol. 66, no. 3, pp. 905-917, March 2018, doi: 10.1109/TCOMM.2017.2776937.
+## Relevant papers
 
-K. Hsieh, C. Rush and R. Venkataramanan, “Spatially Coupled Sparse Regression codes: Design and State Evolution Analysis,” *2018 IEEE International Symposium on Information Theory (ISIT)*, 2018, pp. 1016-1020, doi: 10.1109/ISIT.2018.8437615.
+For details on power allocated SPARCs with AMP decoding:
+* C. Rush, A. Greig, and R. Venkataramanan, “Capacity-achieving sparse superposition codes via approximate message passing decoding,” *IEEE Transactions on Information Theory*, vol. 63, no. 3, pp. 1476-1500, March 2017, doi: 10.1109/TIT.2017.2649460.
 
-C. Rush, K. Hsieh and R. Venkataramanan, “Capacity-Achieving Apatially Coupled Sparse Superposition Codes With AMP Decoding,” in *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4446-4484, July 2021, doi: 10.1109/TIT.2021.3083733
+For details how the power allocation can be optimized and how the AMP decoder can be terminated early:
+* A. Greig and R. Venkataramanan, “Techniques for improving the finite length performance of sparse superposition codes,” *IEEE Transactions on Communications*, vol. 66, no. 3, pp. 905-917, March 2018, doi: 10.1109/TCOMM.2017.2776937.
 
-K. Hsieh and R. Venkataramanan, "Modulated Sparse Superposition Codes for the Complex AWGN Channel," in *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4385-4404, July 2021, doi: 10.1109/TIT.2021.3081368.
+For details on spatially coupled SPARCs with AMP decoding:
+* C. Rush, K. Hsieh and R. Venkataramanan, “Capacity-Achieving Apatially Coupled Sparse Superposition Codes With AMP Decoding,” *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4446-4484, July 2021, doi: 10.1109/TIT.2021.3083733
 
-K. Hsieh, "Spatially Coupled Sparse Regression Codes for Single- and Multi-User Communications," Ph.D. dissertation, Cambridge University, Cambridge, UK, 2021, doi: 10.17863/CAM.70721.
+For details on modulated SPARCs with AMP decoding:
+* K. Hsieh and R. Venkataramanan, "Modulated Sparse Superposition Codes for the Complex AWGN Channel," *IEEE Transactions on Information Theory*, vol. 67, no. 7, pp. 4385-4404, July 2021, doi: 10.1109/TIT.2021.3081368.
+
+### Other
+
+The following monograph on SPARCs provides a comprehensive overview of SPARCs. Includes SPARCs for AWGN channel coding, lossy compression and Gaussian multi-terminal channel and source coding models such as broadcast channels, multiple-access channels, and source and channel coding with side information.
+* R. Venkataramanan, S. Tatikonda, and A. Barron, “Sparse regression codes,” *Foundations and Trends in Communications and Information Theory*, vol. 15, no. 1-2, pp. 1–195, 2019.
+
+Phd thesis of K. Hsieh. Includes background material on SPARCs, AMP algorithms and spatial coupling, and provides some more details on spatially coupled SPARCs and modulated SPARCs compared to the relevant papers above. Chapter 4 of the thesis discusses how spatially coupled SPARCs can be used for near-optimal Gaussian multiple-access in the setting where the number of users grows linearly with the code length, and the per-user payload and energy-per-bit are held fixed.
+* K. Hsieh, "Spatially Coupled Sparse Regression Codes for Single- and Multi-User Communications," Ph.D. dissertation, Cambridge University, Cambridge, UK, 2021, doi: 10.17863/CAM.70721.
