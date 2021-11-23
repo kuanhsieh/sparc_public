@@ -28,4 +28,4 @@ The following monograph on SPARCs provides a comprehensive overview of SPARCs. I
 * R. Venkataramanan, S. Tatikonda, and A. Barron, “Sparse Regression Codes,” *Foundations and Trends in Communications and Information Theory*, vol. 15, no. 1-2, pp. 1–195, 2019.
 
 Phd thesis of K. Hsieh. Provides background material on SPARCs, AMP algorithms and spatial coupling, and also some more discussions and simulation results for spatially coupled SPARCs and modulated SPARCs compared to the relevant papers above. Chapter 4 of the thesis discusses how spatially coupled SPARCs can be used for near-optimal Gaussian multiple-access in the setting where the number of users grows linearly with the code length, and the per-user payload and energy-per-bit are held fixed.
-* K. Hsieh, "Spatially Coupled Sparse Regression Codes for Single- and Multi-User Communications," Ph.D. dissertation, Cambridge University, Cambridge, UK, 2021, doi: 10.17863/CAM.70721.
+* K. Hsieh, "Spatially Coupled Sparse Regression Codes for Single- and Multi-User Communications," Ph.D. dissertation, Cambridge University, Cambridge, UK, 2021, doi: [10.17863/CAM.70721](https://doi.org/10.17863/CAM.70721).
